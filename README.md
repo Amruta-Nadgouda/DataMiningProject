@@ -17,4 +17,4 @@ We need to combine features to generate a new feature. This will help us use the
 We created a smaller dataset consisting of the important features such time, location and vehicle color for classification. We then converted the strings to numerical values using the Label Encoder.
 
 ### Classifiers and Results
-Initially, we decided to use SVM,KNN and Random Forest Classifiers (RFC) for classification. However, we included Logistic Regression and Naive Bayes as well to test their performance. So far, RFC give the best performance for this dataset based on F1 scores and accuracy. Whereas, Logistic Regression and Naive Bayes perform poorly.
+Initially, we decided to use SVM, KNN and Random Forest Classifiers (RFC) for classification. However, SVM wasn't converging for this dataset, so we decided to use ensemble methods such as Decision Tree, Extra Tree, ADA Boost, XG Boost, etc. The performance of these classifiers can be found in 
